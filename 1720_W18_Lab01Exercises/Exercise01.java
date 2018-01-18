@@ -102,6 +102,60 @@ public class Exercise01 {
 
 		final String PROMPT = "Enter \"h:m\" (where 0 <= h <= 12 and 0 <= m < 60): ";
 		output.printf(PROMPT);
+		
+		/*
+		 * Start by reading the comment block at the start of this class
+		 * definition. Ensure that you first understand this app's
+		 * specification.
+		 * 
+		 * Your first step is to read the user's inputed string and store in an
+		 * appropriately-named variable, say "userInput".
+		 * 
+		 * For the sake of this exercise, you may assume that the input is valid
+		 * (i.e., you may assume that the user will enter two tokens that are
+		 * delimited by a colon as per the instructions above).
+		 */
+
+		/*
+		 * Now identify and make use of a service that can be used to extract
+		 * the two colon-delimited tokens from the String variable "userInput",
+		 * and to store each of tokens in its own String variables.For the sake
+		 * of this lab exercises, declare the variables and assign the variables
+		 * in separate statements (you will see why we need to do this in
+		 * Exercise02). For example, the variable names "tok1" and "tok2".
+		 * 
+		 * Print each token to the console.
+		 */
+
+		/*
+		 * Hint: you can do this using the "split" method of String, or the
+		 * nextXX from Scanner.
+		 */
+
+
+		/*
+		 * Now identify and make use of a service that can be used to parse each
+		 * token as an integer. For the sake of these lab exercises, declare the
+		 * variables and assign the variables in separate statements (you will
+		 * see why we need to do this in Exercise03).
+		 */
+
+
+		/*
+		 * Now implement an arithmetic expression in order to derive the number
+		 * of minutes that have elapsed since midnight. Print the result to the
+		 * console.
+		 * 
+		 * Hint: The seemingly obvious approach would be as follows: take the
+		 * inputed number of hours and multiply by the number of minutes per
+		 * hour (a constant), then add to this product the inputed number of
+		 * minutes. However, check to see whether this works for the boundary
+		 * cases (the smallest and largest possible inputs). You will need to
+		 * devise a solution that works for the full range of possible inputs.
+		 * 
+		 * Hint: Do not use MAGIC NUMBERS. Instead, use the coding pattern of
+		 * using final variables.
+		 */
 
 
 	}
