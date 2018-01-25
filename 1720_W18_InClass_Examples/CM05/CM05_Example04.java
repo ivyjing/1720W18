@@ -91,7 +91,7 @@ public class CM05_Example04 extends Application {
 		myCircle.setFill(fillColour);
 		Color strokeColour = new Color(0, 1, 0, 1);
 		myCircle.setStroke(strokeColour);
-		double strokeWidth = 4;
+		double strokeWidth = 100000;
 		myCircle.setStrokeWidth(strokeWidth);
 		StrokeType strokeType = StrokeType.OUTSIDE;
 		myCircle.setStrokeType(strokeType);
