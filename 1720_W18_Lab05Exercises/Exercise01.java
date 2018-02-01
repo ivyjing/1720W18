@@ -12,7 +12,7 @@ import javafx.stage.Stage;
  *
  */
 public class Exercise01 extends Application {
-	private int SCENE_WIDTH = 800;
+	private int SCENE_WIDTH = 800; 
 	private int SCENE_HEIGHT = 600;
 
 	public static void main(String[] args) {
